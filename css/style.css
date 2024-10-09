@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.content .room-homepage {
+  background-image: url(../img/head-bg-stol.jpg);
+  padding: 58px 0 456px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.content .room-homepage .container {
+  padding: 0 64px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.content .room-homepage .container .head-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 56px;
+}
+.content .room-homepage .container .head-logo .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content .room-homepage .container .head-logo ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 31px;
+}
+.content .room-homepage .container .head-logo ul li {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+.content .room-homepage .container .head-logo .burger {
+  display: none;
+}
+.content .head-text {
+  max-width: 600px;
+  padding: 0px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.content .head-text .discover h1 {
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: -0.04em;
+  color: #000;
+  margin-bottom: 18px;
+}
+.content .head-text .discover p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  letter-spacing: -0.02em;
+  color: #a0a0a0;
+  margin-bottom: 26px;
+}
+.content .head-text .discover .link-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.content .head-text .discover .link-about a h3 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 0.83em;
+  color: #000;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.content .head-text .discover .link-about a h3:hover {
+  color: #a0a0a0;
+}
+.content .head-text .discover .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 444px;
+  left: 0px;
+  position: absolute;
+}
+.content .head-text .discover .card .left {
+  padding: 28px 34px;
+  background-color: #000;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.content .head-text .discover .card .right {
+  padding: 28px 34px;
+  background-color: #000;
+}
+.content .head-text .discover .card *:hover {
+  background: #444;
+}
+
+.about-our {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about-our .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about-our .container .about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about-our .container .about-content .about-text {
+  margin: 0 auto;
+  max-width: 580px;
+  width: 100%;
+  padding: 60px 48px;
+}
+.about-our .container .about-content .about-text h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 137%;
+  letter-spacing: 0.42em;
+  text-align: justify;
+  color: #000;
+  margin-bottom: 16px;
+}
+.about-our .container .about-content .about-text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  letter-spacing: -0.02em;
+  color: #a0a0a0;
+}
+
+@media (max-width: 1429px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 41px;
+  }
+  .content .room-homepage {
+    background-image: url(../img/head-media.jpg);
+    padding: 48px 0 289px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .content .room-homepage .container .head-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 113px;
+  }
+  .content .room-homepage .container .head-logo ul {
+    display: none;
+  }
+  .content .room-homepage .container .head-logo .burger {
+    display: none;
+  }
+  .content .head-text {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .content .head-text .discover {
+    margin: 0 auto;
+    max-width: 1429px;
+  }
+  .content .head-text .discover h1 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -0.04em;
+    margin-bottom: 15px;
+  }
+  .content .head-text .discover p {
+    margin-bottom: 41px;
+  }
+  .content .head-text .discover .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: -145px;
+    left: 440px;
+    position: absolute;
+  }
+  .about-our {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 375px;
+    margin: 0 auto;
+    gap: 49px;
+  }
+  .about-our .about-left-bg img {
+    width: 376px;
+    height: 238px;
+  }
+  .about-our .about-right-bg img {
+    width: 376px;
+    height: 238px;
+  }
+  .about-our .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about-our .container .about-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    max-width: 375px;
+  }
+  .about-our .container .about-content .about-text {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+  .about-our .container .about-content .about-text h2 {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 903px) {
+  .container {
+    padding: 0 24px !important;
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content .room-homepage {
+    background-image: url(../img/head-media.jpg);
+    max-width: 840px;
+    padding: 48px 0 289px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .content .room-homepage .container .head-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 113px;
+  }
+  .content .room-homepage .container .head-logo ul {
+    display: none;
+  }
+  .content .room-homepage .container .head-logo .burger {
+    display: block;
+  }
+  .content .head-text {
+    max-width: 311px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    margin-bottom: 72px;
+  }
+  .content .head-text .discover h1 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -0.04em;
+    margin-bottom: 15px;
+  }
+  .content .head-text .discover p {
+    margin-bottom: 41px;
+  }
+  .content .head-text .discover .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: -120px;
+    left: 231px;
+    position: absolute;
+  }
+  .content .head-text .discover .card .left {
+    padding: 19px 23px;
+  }
+  .content .head-text .discover .card .left a img {
+    height: 18px;
+    width: 10px;
+  }
+  .content .head-text .discover .card .right {
+    padding: 19px 23px;
+  }
+  .content .head-text .discover .card .right a img {
+    height: 18px;
+    width: 10px;
+  }
+  .about-our {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 375px;
+    margin: 0 auto;
+    gap: 49px;
+  }
+  .about-our .about-left-bg img {
+    width: 376px;
+    height: 238px;
+  }
+  .about-our .about-right-bg img {
+    width: 376px;
+    height: 238px;
+  }
+  .about-our .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about-our .container .about-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    max-width: 375px;
+  }
+  .about-our .container .about-content .about-text {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+  .about-our .container .about-content .about-text h2 {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
